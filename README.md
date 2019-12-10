@@ -565,3 +565,4 @@ Besides the Serial output, you should see `LED3` on the `BeagleBone Black` blink
 **Root File System for OMAP35x:** http://processors.wiki.ti.com/index.php/Creating_a_Root_File_System_for_Linux_on_OMAP35x#Creating_and_Booting_a_CRAMFS_Root_File_System
 
 **Misc:** https://elinux.org/Beagleboard:BeagleBoneBlack_Rebuilding_Software_Image
+
