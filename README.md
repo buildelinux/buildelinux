@@ -1,4 +1,5 @@
 # How to Build a Linux Distribution for the BeagleBone Black
+
 ## Introduction
 In this tutorial, I will explain how to build your own **Embedded Linux Distribution** for the BeagleBone Black.
 During my research, I have found different blogs, tutorials, and other resources about the topic, but most of them are incomplete or out of date.
