@@ -552,17 +552,17 @@ Besides the Serial output, you should see `LED3` on the `BeagleBone Black` blink
 
 
 ## References
-**Dr. Alexander Perez-Pons:** http://nweb.eng.fiu.edu/aperezpo/
+[Dr. Alexander Perez-Pons](http://nweb.eng.fiu.edu/aperezpo/)
 
-**Embedded Linux Primer:** https://elinux.org/Embedded_Linux_Primer
+[Embedded Linux Primer](https://elinux.org/Embedded_Linux_Primer)
 
-**Building Embedded Linux from Scratch:** http://www.bootembedded.com/embedded-linux/building-embedded-linux-scratch-beaglebone-black/
+[Building Embedded Linux from Scratch](http://www.bootembedded.com/embedded-linux/building-embedded-linux-scratch-beaglebone-black/)
 
-**Boot Beaglebone Black in 60 Minutes:** http://www.blackpeppertech.com/pepper/tech-tree/boot-your-beaglebone-black-in-60-minutes/
+[Boot Beaglebone Black in 60 Minutes](http://www.blackpeppertech.com/pepper/tech-tree/boot-your-beaglebone-black-in-60-minutes/)
 
-**Booting Linux Problems:** http://processors.wiki.ti.com/index.php/Kernel_-_Common_Problems_Booting_Linux
+[Booting Linux Problems](http://processors.wiki.ti.com/index.php/Kernel_-_Common_Problems_Booting_Linux)
 
-**Root File System for OMAP35x:** http://processors.wiki.ti.com/index.php/Creating_a_Root_File_System_for_Linux_on_OMAP35x#Creating_and_Booting_a_CRAMFS_Root_File_System
+[Root File System for OMAP35x](http://processors.wiki.ti.com/index.php/Creating_a_Root_File_System_for_Linux_on_OMAP35x#Creating_and_Booting_a_CRAMFS_Root_File_System)
 
-**Misc:** https://elinux.org/Beagleboard:BeagleBoneBlack_Rebuilding_Software_Image
+[Misc](https://elinux.org/Beagleboard:BeagleBoneBlack_Rebuilding_Software_Image)
 
