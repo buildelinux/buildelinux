@@ -1,1 +1,5 @@
 site_name: Build elinux
+nav:
+- 'Embedded_Systems.md'
+- 'resources.md'
+- 'about.md'
