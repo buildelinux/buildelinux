@@ -1,5 +1,20 @@
 site_name: Build elinux
+site_description: Documentation for Embedded Linux Projects.
+site_author: Javier Vega
+
 nav:
-- 'Embedded_Systems.md'
-- 'resources.md'
-- 'about.md'
+  - Home: 'index.md'
+  - Embedded Systems:
+    - 'Loadable Module': 'embedded_systems/loadable_module/module.md' 
+    - 'Device Driver': 'embedded_systems/device_driver/driver.md'
+    - 'Linux Distribution': 'embedded_systems/linux_distribution/linux_distro.md'
+  - Resources: 'resources.md'
+  - About: 'about.md'
+
+extra:
+  version: 1.0
+
+repo_url: 'https://github.com/buildelinux/buildelinux'
+edit_uri: ''
+
+copyright: 'Copyright © 2019 by <a href="https://github.com/nanoterran">Javier Vega</a>, Maintained by <a href="https://github.com/buildelinux/buildelinux">buildelinux</a>'
