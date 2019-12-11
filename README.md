@@ -1,11 +1,11 @@
-## How to Build a Linux Distribution for the BeagleBone Black
+# How to Build a Linux Distribution for the BeagleBone Black
 
-### Introduction
+## Introduction
 In this tutorial, I will explain how to build your own **Embedded Linux Distribution** for the BeagleBone Black.
-During my research, I have found different blogs, tutorials, and other resources about the topic, but most of them are incomplete or out of date.
+During my research, I have found different blogs, tutorials, and other resources about the topic, but most of them are incomplete or outdated.
 It was challenging for me when I started, so I hope this tutorial gives you a wider understanding of embedded linux and how to build your own.
 
-To build an **Embedded Linux Distribution** from scratch, for the BeagleBone Black or any other processor, there are many components involved.
+There are many components involved to build an **Embedded Linux Distribution** from scratch, for the BeagleBone Black or any other processor.
 The first component you need, is a **Toolchain** to compile and package applications for the BeagleBone Black.
 Once you have all the tools, you need a **BootLoader** to provide early initialization initialization so that other programs can run.
 Next, you need the **Linux Kernel** which is the main component of your system. 
