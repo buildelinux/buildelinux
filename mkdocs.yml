@@ -5,6 +5,7 @@ site_author: Javier Vega
 nav:
   - Home: 'index.md'
   - Embedded Systems:
+    - 'BeagleBone Black Debugging': embedded_systems/debugging/serial_debug.md
     - 'Loadable Module': 'embedded_systems/loadable_module/module.md' 
     - 'Device Driver': 'embedded_systems/device_driver/driver.md'
     - 'Linux Distribution': 'embedded_systems/linux_distribution/linux_distro.md'
