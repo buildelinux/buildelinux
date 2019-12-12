@@ -1,11 +1,15 @@
 # BeagleBone Black Debugging
 
+_by Javier Vega | December 11, 2019_
+
+---
+
 ## Introduction
-As an embedded developer, you always want to know what your microcontroller is doing at any time.
-Sometimes it is challenging to know what the board is doing as it boots, unless you have a serial debugger.
-The USB-to-serial cable becomes really useful when building a Linux distribution or when there are problems with you Linux distribution.
-It helps you find issues or any errors in the kernel as it is booting.
-This tutorial, will guide you step-by-step on how to debug the BeagbleBone Black using a serial cable.
+As an embedded developer, you always want to know what your Microcontroller is doing at any time.
+Sometimes, it is challenging to know what the board is doing as it boots unless you have a serial debugger.
+The USB-to-serial cable becomes really useful when building a Linux distribution or when there are problems with your current Linux Image.
+It helps you find issues in the `BootLoader` or in the `Linux Kernel` as they initialize.
+This tutorial, will guide you step-by-step on how to setup a serial cable to debug the BeagleBone Black.
 
 ## General Steps
 1. Connect your USB side of the serial cable to your Host machine.
@@ -18,7 +22,26 @@ This tutorial, will guide you step-by-step on how to debug the BeagbleBone Black
 	| Pin 5 (TX)  |	White (RX)  |
 
 3. Open a Terminal Window and run `ls /dev/tty*` to look for the USB device.
-4. 
+If you see `ttyUSB0` or `ttyUSB1`, then your serial is connected.
 
-## Log to a File
-~~There are times that is difficult to see the errors on a live Terminal Window because the messages printed too fast.~~
+4. To establish a connection, run `screen /dev/ttyUSB0 115200`.
+
+![Screen](attachments/screen.png)
+
+**Note:** If you don't have screen installed by default, run `sudo apt-get install screen` to install it. 
+
+Once you boot you BeagleBone Black, you should see messages from the `Bootloader` and the `Linux Kernel` on your terminal.
+
+![Screen Running](attachments/ScreenRunning.png)
+
+
+## Writing screen Output to a File
+There are times that is difficult to see the errors on a live Terminal Window because the messages are printed too fast.
+If you want to log to a file, run `screen -L /dev/ttyUSB0 115200`.
+This will create a file `screenlog.0` in the current directory.
+To open the file, run `nano screenlog.0`.
+
+![Nano](attachments/Nano.png)
+
+## Resources
+[How to connect the BeagleBone Black](https://www.dummies.com/computers/beaglebone/how-to-connect-the-beaglebone-black-via-serial-over-usb/)
