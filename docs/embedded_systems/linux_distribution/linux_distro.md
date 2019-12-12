@@ -1,5 +1,8 @@
 # How to Build a Linux Distribution for the BeagleBone Black
-_by Javier Vega on December 10, 2019_
+
+_by Javier Vega | December 10, 2019_
+
+---
 
 ## Introduction
 In this tutorial, I will explain how to build your own **Embedded Linux Distribution** for the BeagleBone Black.
