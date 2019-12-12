@@ -1,5 +1,9 @@
 # BeagleBone Black Debugging
 
+_by Javier Vega | December 12, 2019_
+
+---
+
 ## Introduction
 As an embedded developer, you always want to know what your microcontroller is doing at any time.
 Sometimes it is challenging to know what the board is doing as it boots, unless you have a serial debugger.

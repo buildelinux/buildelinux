@@ -1,6 +1,6 @@
 # Welcome to Build Embedded Linux
-
+---
 The purpose of this site is to provide information and tutorials about Linux on Embedded Systems.
 
-## Embedded Linux Tutorials
-[Embedded Linux Tutorials](Embedded_Systems.md)
+## New Tutorials
+[How to Build a Linux Distribution](embedded_systems/linux_distribution/linux_distro.md)
